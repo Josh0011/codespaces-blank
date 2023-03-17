@@ -1,0 +1,482 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard</title>
+
+    <link rel="stylesheet" href="dashboard.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;700;800&family=Poppins:ital,wght@0,500;0,700;0,800;0,900;1,400&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Sharp"
+      rel="stylesheet">
+      <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Sharp:opsz,wght,FILL,GRAD@48,400,0,0" />
+</head>
+<body>
+    
+    <div class="container">
+
+
+        <aside class="aside" >
+
+            <div class="top--aside">
+                
+                <div class="top-log-container">
+
+                    <div class="logo">
+                        <img  src="https://banner2.cleanpng.com/20180715/zio/kisspng-logo-font-flame-logo-5b4b2d7c3b73e0.2237387315316535002435.jpg">
+                        <h2> <span class="h2-span">Dashboard</span></h2>
+                        <button class="icon" id="icon--btn--close" >
+                            <span class="material-symbols-sharp">
+                                close
+                                </span>
+                              
+                        </button>
+                    </div>
+                    
+                </div>
+
+                <div class="side--bar">
+
+                    <a href="#">
+                        <span class="material-symbols-sharp">
+                            grid_view
+                            </span>
+                            <h3>Dashboard</h3>
+                    </a>
+
+                    <a href="#" class="active">
+                        <span class="material-symbols-sharp">
+                            person
+                            </span>
+                            <h3>Customers</h3>
+                    </a>
+
+                    <a href="#">
+                        <span class="material-symbols-sharp">
+                            receipt_long
+                            </span>
+                            <h3>Orders</h3>
+                    </a>
+
+                    <a href="#">
+                        <span class="material-symbols-sharp">
+                           insights
+                            </span>
+                            <h3>Analystics</h3>
+                    </a>
+
+                    <a href="#" class="mesages-btn">
+                        <span class="material-symbols-sharp">
+                            mail_outline
+                            </span>
+                            <h3>Messages</h3>
+                    </a>
+
+                    <a href="#">
+                        <span class="material-symbols-sharp">
+                            inventory
+                            </span>
+                            <h3>Products</h3>
+                    </a>
+
+                    <a href="#">
+                        <span class="material-symbols-sharp">
+                            report
+                            </span>
+                            <h3>Reports</h3>
+                    </a>
+
+                    <a href="#">
+                        <span class="material-symbols-sharp">
+                            settings
+                            </span>
+                            <h3>Settings</h3>
+                    </a>
+
+                    <a href="#">
+                        <span class="material-symbols-sharp">
+                           add
+                            </span>
+                            <h3>Add Products</h3>
+                    </a>
+
+                    <a href="#">
+                        <span class="material-symbols-sharp">
+                            logout
+                            </span>
+                            <h3>logout</h3>
+                    </a>
+
+
+                </div>
+
+
+            </div> 
+            
+            
+        </aside>
+
+        <!-- ============ END OF ASIDE ============= -->
+
+        <main>
+            <h1>Dashboard</h1>
+
+            <div class="date--main">
+                <input type="date" class="date">
+            </div>
+
+            <div class="insights--main">
+
+                <div class="sales--main">
+
+                    
+                    <span class="material-symbols-sharp">
+                        analytics
+                    </span>
+
+                    <div class="middle-main">
+
+                        <div class="left">
+                            <h3>Total sales</h3>
+                            <h1>$25,000</h1>
+                        </div>
+
+                        <div class="progress-main">
+                            <svg>
+                                <circle cx="38" cy="38" r="36"></circle>
+                            </svg>
+                            <p class="progress-main--load">81%</p>
+
+                        </div>
+
+
+                    </div>
+                    <samll class="text--muted">Last 2 hours</samll>
+
+                </div>
+
+
+                
+                <div class="sales--main none-work">
+
+                    
+                    <span class="material-symbols-sharp">
+                        analytics
+                    </span>
+
+                    <div class="middle-main">
+
+                        <div class="left">
+                            <h3>Total sales</h3>
+                            <h1>$25,000</h1>
+                        </div>
+
+                        <div class="progress-main">
+                            <svg>
+                                <circle cx="38" cy="38" r="36"></circle>
+                            </svg>
+                            <p class="progress-main--load">81%</p>
+
+                        </div>
+
+
+                    </div>
+                    <samll class="text--muted">Last 2 hours</samll>
+
+                </div>
+
+
+
+                <!-- ======== END 0F FIRST SALES=========== -->
+
+                <div class="sales--expenses">
+
+                    
+                    <span class="material-symbols-sharp">
+                        stacked_line_chart
+                        </span>
+
+                <div class="middle-main">
+
+                    <div class="left">
+                        <h3>Total Income</h3>
+                        <h1>$20,000</h1>
+                    </div>
+
+                    <div class="progress-main">
+                        <svg>
+                            <circle cx="38" cy="38" r="36"></circle>
+                        </svg>
+                        <p class="progress-main--load">54%</p>
+
+                    </div>
+
+
+                </div>
+                <samll class="text--muted">Last 2 hours</samll>
+
+             </div>
+              <!-- ======== END 0F SECOND SALES=========== -->
+
+
+               <div class="sales--income">
+
+                    
+                <span class="material-symbols-sharp">
+                    bar_chart
+                    </span>
+
+                <div class="middle-main">
+
+                    <div class="left">
+                        <h3>Total Review</h3>
+                        <h1>$15,000</h1>
+                    </div>
+
+                    <div class="progress-main">
+                        <svg>
+                            <circle cx="38" cy="38" r="36"></circle>
+                        </svg>
+                        <p class="progress-main--load">38%</p>
+
+                    </div>
+
+
+                </div>
+
+                <samll class="text--muted">Last 2 hours</samll>
+
+               </div>
+             
+
+
+            </div>
+            <!-- ===END OF this======================= -->
+
+
+
+            <div class="recent-order">
+                <h2>Recents Orders</h2>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Product Name</th>
+                            <th>Product Number</th>
+                            <th>Payments</th>
+                            <th>Status</th>
+                            <th></th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Foldable Mini Drone</td>
+                            <td>86093</td>
+                            <td>Due</td>
+                            <td class="warning">Pending</td>
+                            <td class="primary--details"> Details</td>
+                        </tr>
+
+                        <tr>
+                            <td>Foldable Mini Drone</td>
+                            <td>86093</td>
+                            <td>Due</td>
+                            <td class="warning">Pending</td>
+                            <td class="primary--details"> Details</td>
+                        </tr>
+
+                        <tr>
+                            <td>Foldable Mini Drone</td>
+                            <td>86093</td>
+                            <td>Due</td>
+                            <td class="warning">Pending</td>
+                            <td class="primary--details"> Details</td>
+                        </tr>
+
+                        <tr>
+                            <td>Foldable Mini Drone</td>
+                            <td>86093</td>
+                            <td>Due</td>
+                            <td class="warning">Pending</td>
+                            <td class="primary--details"> Details</td>
+                        </tr>
+
+                        <tr>
+                            <td>Foldable Mini Drone</td>
+                            <td>86093</td>
+                            <td>Due</td>
+                            <td class="warning">Pending</td>
+                            <td class="primary--details"> Details</td>
+                        </tr>
+
+                    </tbody>
+                </table>
+                <a href="#">Show All</a>
+            </div>
+
+        </main>
+
+        <!-- ========== END OF MAIN SECTION GOODBYE -->
+
+
+        <div class="right--page">
+
+            <div class="top--right">
+               
+                <button id="menu--btn--right">
+                    <span class="material-symbols-sharp">
+                        menu
+                        </span>
+                </button>
+               
+                <div class="theme-toggler">
+                    <span class="material-symbols-sharp active--light">
+                        light_mode
+                        </span>
+                        <span class="material-symbols-sharp dark-theme">
+                            dark_mode
+                            </span>
+                </div>
+                <div class="profile-right">
+                    <div class="profile-info">
+                        <p>Hey , <b>Joshua</b></p>
+                        <small class="text-muted">Admin</small>
+                    </div>
+
+                    <div class="profile-photo">
+                        <img src="WhatsApp Image 2023-03-04 at 10.52.21.jpg" >
+                    </div>
+                </div>
+            </div>
+
+            <!-- == END OF TOP =========== -->
+
+            <div class="recent--updates">
+                <h2>Recents Updates</h2>
+
+                <div class="updates">
+
+                    <div class="profile-photo">
+                        <img src="WhatsApp Image 2023-03-04 at 10.52.21.jpg">
+                    </div>
+                    <div class="message--updates">
+                        <p><b>Onaolapo Joshua</b> received his order of Night lion tech GPS drone</p>
+                        <small class="time--ago">2 minutes ago</small>
+                    </div>
+                </div>
+
+                <div class="updates">
+
+                    <div class="profile-photo">
+                        <img src="WhatsApp Image 2023-03-04 at 10.52.21.jpg">
+                    </div>
+                    <div class="message--updates">
+                        <p><b>Onaolapo Joshua</b> received his order of Night lion tech GPS drone</p>
+                        <small class="time--ago">2 minutes ago</small>
+                    </div>
+                </div>
+
+                <div class="updates">
+
+                    <div class="profile-photo">
+                        <img src="WhatsApp Image 2023-03-04 at 10.52.21.jpg">
+                    </div>
+                    <div class="message--updates">
+                        <p><b>Onaolapo Joshua</b> received his order of Night lion tech GPS drone</p>
+                        <small class="time--ago">2 minutes ago</small>
+                    </div>
+                </div>
+
+                
+            </div>
+
+             <!-- ============== END OF UPDATES SECTIONS =========== -->
+
+
+            <div class="sales--analystics">
+
+                <h2>Sales Analystics</h2>
+    
+                <div class="item offline">
+    
+                    <div class="icon">
+                        <span class="material-symbols-sharp">
+                            local_mall
+                            </span>
+                    </div>
+                    <div class="analys--right">
+                        <div class="analys--info">
+                            <h3>0FFLINE ORDERS</h3>
+                            <small class="text--muted">Last 24 Hours</small>
+                        </div>
+                        <h5 class="danger"> -17%</h5>
+                        <h3>1100</h3>
+                    </div>
+    
+                </div>
+    
+    
+                <div class="item online">
+    
+                    <div class="icon">
+                        <span class="material-symbols-sharp">
+                            shopping_cart
+                            </span>
+                    </div>
+                    <div class="analys--right">
+                        <div class="analys--info">
+                            <h3>0NLINE ORDERS</h3>
+                            <small class="text--muted">Last 24 Hours</small>
+                        </div>
+                        <h5 class="success"> -17%</h5>
+                        <h3>3553</h3>
+                    </div>
+                    
+                </div>
+    
+    
+                <div class="item customers">
+    
+                    <div class="icon">
+                        <span class="material-symbols-sharp">
+                            person
+                            </span>
+                    </div>
+                    <div class="analys--right">
+                        <div class="analys--info">
+                            <h3>NEW CUSTOMERS</h3>
+                            <small class="text--muted">Last 24 Hours</small>
+                        </div>
+                        <h5 class="success"> +39%</h5>
+                        <h3>8553</h3>
+                    </div>
+                    
+                </div>
+
+                <div class="item add-products">
+                    <div>
+                        <span class="material-symbols-sharp">
+                            add
+                            </span>
+                            <h3>Add Product</h3>
+                    </div>
+                    </div>
+                </div>
+                
+    
+                
+            </div>
+        </div>
+
+       
+
+        
+
+    </div>
+
+    <script  src="dashboard.js"></script>
+</body>   
+</html>
